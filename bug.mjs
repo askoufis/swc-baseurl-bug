@@ -3,7 +3,7 @@ import { readFile } from "fs/promises";
 import { cwd } from "process";
 import { join } from "path";
 
-const filePath = "./src/file.js";
+const filePath = "./src/index.js";
 
 const code = await readFile(filePath, "utf-8");
 

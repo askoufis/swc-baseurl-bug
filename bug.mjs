@@ -24,7 +24,7 @@ const unexpected = (
   await transform(code, {
     filename,
     jsc: {
-      baseUrl: "/Users/askoufis/code/swc-baseurl-bug",
+      baseUrl: cwd(),
     },
   })
 ).code;

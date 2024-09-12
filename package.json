@@ -1,0 +1,10 @@
+{
+  "name": "swc-baseurl-bug",
+  "scripts": {
+    "bug": "node bug.mjs"
+  },
+  "packageManager": "pnpm@9.10.0",
+  "devDependencies": {
+    "@swc/core": "1.7.26"
+  }
+}
